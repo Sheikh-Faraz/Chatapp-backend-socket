@@ -1,0 +1,3 @@
+- This is the backend for chat app main purpose of making this was for the funtionality of socket.io
+- Guidence and understanding of integrating this was taken from youtube from a channel, info given below
+- YouTube Channel (Happy), Vide Name (Learn Socket.io with Next.js/React.js in 20 minutes).
