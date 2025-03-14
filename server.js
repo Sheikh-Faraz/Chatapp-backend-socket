@@ -1,5 +1,5 @@
 require('dotenv').config();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:3000';
 
 const io = require('socket.io')(PORT, {
