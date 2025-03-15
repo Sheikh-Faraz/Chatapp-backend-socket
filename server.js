@@ -1,6 +1,6 @@
 require('dotenv').config();
 const PORT = process.env.PORT || 8080;
-const CORS_ORIGIN = process.env.CORS_ORIGIN || 'http://localhost:3000';
+const CORS_ORIGIN = process.env.CORS_ORIGIN || 'https://link-up-chatapp.vercel.app';
 
 const io = require('socket.io')(PORT, {
   cors: {
